@@ -18,7 +18,7 @@ a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}.topb
 </nav></aside><main><section class="hero"><div class="eyebrow">Minecraft plugin documentation</div><h1>Shadow Race Wiki</h1><p>Khám phá 30 tộc, tìm hiểu nội tại và kỹ năng, tra cứu lệnh, cấu hình, chức vụ và hệ thống solo PvP.</p><div class="pills"><span class="pill">Paper 1.21.11+</span> <span class="pill">Java 21</span> <span class="pill">30 tộc</span> <span class="pill">Tiếng Việt</span></div></section>
 <div id="no-results" class="no-results">Không tìm thấy nội dung phù hợp. Thử từ khóa khác nhé.</div><article class="content" id="wiki-content"><h1 id="shadow-race-wiki">SHADOW RACE WIKI</h1>
 <p><strong>Tài liệu hướng dẫn plugin Shadow Race</strong>  </p>
-<p><em>Cập nhật: 20/10/2026 · Tác giả: @Fakkk</em></p>
+<p><em>Cập nhật: 20/10/2026 · Tác giả: Tu Nguyen</em></p>
 <h2 id="giới-thiệu-nhanh">Giới thiệu nhanh</h2>
 <p>Shadow Race là plugin dành cho <strong>Paper 1.21.11+</strong>, yêu cầu <strong>Java 21</strong>, gồm <strong>30 tộc</strong> lấy cảm hứng từ mob Minecraft. Mỗi tộc có chỉ số riêng, nội tại vĩnh viễn và một kỹ năng kích hoạt bằng <strong>Shift + chuột phải</strong>. Thành viên trong cùng tộc có thể tranh chức <strong>Bang chủ</strong> hoặc <strong>Phó bang</strong> bằng các trận solo PvP.</p>
 <h2 id="mục-lục">Mục lục</h2>
@@ -530,7 +530,7 @@ a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}.topb
 </ol>
 <hr>
 <h2 id="ghi-chú-về-tài-liệu">Ghi chú về tài liệu</h2>
-<p>Tài liệu này sắp xếp lại nội dung nguồn theo nhóm chủ đề, thêm mục lục, bảng tra cứu và định dạng thống nhất để dễ đọc. Các thông số và quy tắc được giữ theo nội dung nguồn; nếu có thay đổi trong mã plugin hoặc <code>config.yml</code>, hãy ưu tiên kiểm tra cấu hình thực tế của server.</p></article><div class="footer">Shadow Race Wiki · Nội dung dựa trên tài liệu được cung cấp.</div></main></div>
+<p>Tài liệu này sắp xếp lại nội dung nguồn theo nhóm chủ đề, thêm mục lục, bảng tra cứu và định dạng thống nhất để dễ đọc. Các thông số và quy tắc được giữ theo nội dung nguồn; nếu có thay đổi trong mã plugin hoặc <code>config.yml</code>, hãy ưu tiên kiểm tra cấu hình thực tế của server.</p></article><div class="footer">Shadow Race Wiki · Tác giả: Tu Nguyen · Nội dung dựa trên tài liệu được cung cấp.</div></main></div>
 <script>
 const search=document.getElementById('search'),content=document.getElementById('wiki-content'),noResults=document.getElementById('no-results');
 search.addEventListener('input',()=>{const q=search.value.trim().toLocaleLowerCase('vi');const blocks=[...content.querySelectorAll('h2,h3,h4,p,li,tr,blockquote')];if(!q){blocks.forEach(el=>el.style.display='');noResults.style.display='none';return;}let matches=0;blocks.forEach(el=>{const hit=el.textContent.toLocaleLowerCase('vi').includes(q);el.style.display=hit?'':'none';if(hit)matches++;});noResults.style.display=matches?'none':'block';});
